@@ -33,6 +33,8 @@ Password: Password1!
 We will use the files in this folder to install osTicket and some of the dependencies.
 
 - Step 4: Install / Enable IIS in Windows WITH CGI
+Go to Control Panel > Programs > Click on "Turn Windows Features On or Off"
+Enable IIS in Windows WITH CGI
 World Wide Web Services - Application Development Features →> [X] CGI
 
 - Step 5: From the "osTicket-Installation-Files" folder, install PHP Manager for lIS
