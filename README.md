@@ -37,7 +37,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="499" alt="osTicket - Step 1" src="https://github.com/user-attachments/assets/9cba801d-b9a8-4977-b3fe-512c9a9f5424" />
 </p>
 <p>
-- Step 1: Create an Azure Virtual Machine Windows 10, 4 vCPUs
+Step 1: Create an Azure Virtual Machine Windows 10, 4 vCPUs
 Name: osticket-vm
 Username: labuser
 Password: Password1!
@@ -48,7 +48,7 @@ Password: Password1!
 <img width="396" alt="osTicket - Step 2" src="https://github.com/user-attachments/assets/51e2f8ee-b529-406e-b281-038c01bc2942" />
 </p>
 <p>
-- Step 2: Log into the VM with Remote Desktop
+Step 2: Log into the VM with Remote Desktop
 </p>
 <br />
 
@@ -56,7 +56,7 @@ Password: Password1!
 <img width="498" alt="osTicket - Step 3" src="https://github.com/user-attachments/assets/759da765-a34c-4001-b563-7cee7ba7899a" />
 </p>
 <p>
-- Step 3: Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files” 
+Step 3: Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files” 
 We will use the files in this folder to install osTicket and some of the dependencies.
 </p>
 <br />
@@ -66,7 +66,7 @@ We will use the files in this folder to install osTicket and some of the depende
 <img width="498" alt="osTicket - Step 4 (b" src="https://github.com/user-attachments/assets/c6f05638-9d1b-4884-8ee2-a5960a214e07" />
 </p>
 <p>
-- Step 4: Install / Enable IIS in Windows WITH CGI
+Step 4: Install / Enable IIS in Windows WITH CGI
 Go to Control Panel > Programs > Click on "Turn Windows Features On or Off"
 Enable IIS in Windows WITH CGI
 World Wide Web Services - Application Development Features →> [X] CGI
@@ -77,7 +77,7 @@ World Wide Web Services - Application Development Features →> [X] CGI
 <img width="497" alt="osTicket - Step 5" src="https://github.com/user-attachments/assets/763de8b8-4cfe-4afb-b782-b03bd9404203" />
 </p>
 <p>
-- Step 5: From the "osTicket-Installation-Files" folder, install PHP Manager for lIS
+Step 5: From the "osTicket-Installation-Files" folder, install PHP Manager for lIS
 (PHPManagerForlIS_V1.5.0.msi)
 </p>
 <br />
@@ -86,7 +86,7 @@ World Wide Web Services - Application Development Features →> [X] CGI
 <img width="499" alt="osTicket - Step 6" src="https://github.com/user-attachments/assets/5302d85a-6aee-473d-ba31-ae4d989f309f" />
 </p>
 <p>
-- Step 6: From the "osTicket-Installation-Files" folder install the Rewrite Module
+Step 6: From the "osTicket-Installation-Files" folder install the Rewrite Module
 (rewrite_amd64_en-US.msi)
 </p>
 <br />
@@ -95,7 +95,7 @@ World Wide Web Services - Application Development Features →> [X] CGI
 <img width="499" alt="osTicket - Step 7" src="https://github.com/user-attachments/assets/97bbb7a6-854e-418b-b3a0-dd1691fe9cde" />
 </p>
 <p>
-- Step 7: Create the directory C:\PHP
+Step 7: Create the directory C:\PHP
 </p>
 <br />
 
@@ -103,7 +103,7 @@ World Wide Web Services - Application Development Features →> [X] CGI
 <img width="499" alt="osTicket - Step 8" src="https://github.com/user-attachments/assets/2254a8f0-6f91-4c9e-aa80-b4de417fde52" />
 </p>
 <p>
-- Step 8: From the "osTicket-Installation-Files" folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
+Step 8: From the "osTicket-Installation-Files" folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
 into the "C:IPHP" folder
 </p>
 <br />
@@ -112,7 +112,7 @@ into the "C:IPHP" folder
 <img width="499" alt="osTicket - Step 9" src="https://github.com/user-attachments/assets/62bf0c55-82bd-43b2-9151-b3a6c6628709" />
 </p>
 <p>
-- Step 9: From the "osTicket-Installation-Files" folder, install VC redist.x86.exe.
+Step 9: From the "osTicket-Installation-Files" folder, install VC redist.x86.exe.
 </p>
 <br />
 
@@ -120,7 +120,7 @@ into the "C:IPHP" folder
 <img width="498" alt="osTicket - Step 10" src="https://github.com/user-attachments/assets/016c96a4-04d1-4ed7-b17a-d2013c846a9d" />
 </p>
 <p>
-- Step 10: From the "os Ticket-Installation-Files" folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Step 10: From the "os Ticket-Installation-Files" folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
   Typical Setup →>
 Launch Configuration Wizard (after install) ->
   Standard Configuration ->
@@ -133,7 +133,7 @@ Launch Configuration Wizard (after install) ->
 <img width="499" alt="osTicket - Step 11" src="https://github.com/user-attachments/assets/6f7f3dda-300b-4950-aebb-c49cc2c38d13" />
 </p>
 <p>
-- Step 11: Open IIS as an Admin
+Step 11: Open IIS as an Admin
 </p>
 <br />
 
@@ -141,7 +141,7 @@ Launch Configuration Wizard (after install) ->
 <img width="499" alt="osTicket - Step 12" src="https://github.com/user-attachments/assets/64ce7bbb-e7f9-48ce-8a5d-cf0746c42445" />
 </p>
 <p>
-- Step 12: Register PHP from within IIS (PHP Manager -> C:|PHP\php-cgi.exe)
+Step 12: Register PHP from within IIS (PHP Manager -> C:|PHP\php-cgi.exe)
 </p>
 <br />
 
@@ -150,7 +150,7 @@ Launch Configuration Wizard (after install) ->
 <img width="500" alt="osTicket - Step 13 (b" src="https://github.com/user-attachments/assets/acb63924-d4b3-4521-9f56-16a0d4459581" />
 </p>
 <p>
-- Step 13: Reload IIS (Open IIS, Stop and Start the server)
+Step 13: Reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 
@@ -160,7 +160,7 @@ Launch Configuration Wizard (after install) ->
 <img width="498" alt="osTicket - Step 14 (c" src="https://github.com/user-attachments/assets/4f781032-56c5-4c28-913d-43004e3f8926" />
 </p>
 <p>
-- Step 14: Install os Ticket v1.15.8
+Step 14: Install os Ticket v1.15.8
 From the "osTicket-Installation-Files" folder, unzip "os Ticket-v1.15.8.zip" and copy the
 "upload" folder into "Cilinetpub|wwwroot"
 Within "C:\inetpub|wwwroot", Rename "upload" to "os Ticket"
@@ -172,7 +172,7 @@ Within "C:\inetpub|wwwroot", Rename "upload" to "os Ticket"
 <img width="499" alt="osTicket - Step 15 (b" src="https://github.com/user-attachments/assets/ba8d2096-ad1e-435b-ae88-dbcf0b5391e4" />
 </p>
 <p>
-- Step 15: Reload IIS (Open IIS, Stop and Start the server)
+Step 15: Reload IIS (Open IIS, Stop and Start the server)
 </p>
 <br />
 
@@ -181,7 +181,7 @@ Within "C:\inetpub|wwwroot", Rename "upload" to "os Ticket"
 <img width="502" alt="osTicket - Step 16 (b " src="https://github.com/user-attachments/assets/a099ee95-1aa7-4131-bcfe-a9f691ab663f" />
 </p>
 <p>
-- Step 16: Go to sites - Default - os Ticket
+Step 16: Go to sites - Default - os Ticket
 On the right, click "Browse *:80"
 </p>
 <br />
@@ -192,7 +192,7 @@ On the right, click "Browse *:80"
 <img width="500" alt="osTicket - Step 17 (c" src="https://github.com/user-attachments/assets/a35a5533-7243-4939-9f34-a65cf765edfd" />
 </p>
 <p>
-- Step 17: Note that some extensions are not enabled
+Step 17: Note that some extensions are not enabled
   Go back to IIS, sites -> Default -> os Ticket
   Double-click PHP Manager
   Click "Enable or disable an extension"
@@ -208,7 +208,7 @@ On the right, click "Browse *:80"
 <img width="500" alt="osTicket - Step 18 (b" src="https://github.com/user-attachments/assets/61c39ce0-4731-4ccb-a9f4-c26d45e0607e" />
 </p>
 <p>
-- Step 18: Rename: ost-config.php
+Step 18: Rename: ost-config.php
 From: C:\inetpublwwwrootlosTicket\includelost-sampleconfig.php
 To: C:\inetpub|wwwrootlosTicket\includelost-config.php
 </p>
@@ -219,7 +219,7 @@ To: C:\inetpub|wwwrootlosTicket\includelost-config.php
 <img width="500" alt="osTicket - Step 19 (b" src="https://github.com/user-attachments/assets/aa061d25-43c5-429d-886e-9159535663bb" />
 </p>
 <p>
-- Step 19: Assign Permissions: ost-config.php
+Step 19: Assign Permissions: ost-config.php
   Disable inheritance -> Remove All
   New Permissions -> Everyone →> All
 </p>
@@ -229,7 +229,7 @@ To: C:\inetpub|wwwrootlosTicket\includelost-config.php
 <img width="499" alt="osTicket - Step 20" src="https://github.com/user-attachments/assets/cedc5fd4-ff63-4df6-a2c2-e5014f23f6ff" />
 </p>
 <p>
-- Step 20: Continue Setting up os Ticket in the browser (click Continue)
+Step 20: Continue Setting up os Ticket in the browser (click Continue)
 Name Helpdesk
 Default email (receives email from customers)
 </p>
@@ -243,7 +243,7 @@ Default email (receives email from customers)
 <img width="500" alt="osTicket - Step 21 (e" src="https://github.com/user-attachments/assets/de7ecdf0-9868-4c71-822b-1083f1c16db6" />
 </p>
 <p>
-- Step 21: From the "os Ticket-Installation-Files" folder, install HeidiSQL.
+Step 21: From the "os Ticket-Installation-Files" folder, install HeidiSQL.
   Open Heidi SQL
   Create a new session, root/root
   Connect to the session
@@ -256,7 +256,7 @@ Default email (receives email from customers)
 <img width="501" alt="osTicket - Step 22 (b" src="https://github.com/user-attachments/assets/b898fac3-7249-4de9-b9b6-5c4477cc5dd6" />
 </p>
 <p>
-- Step 22: Continue Setting up os Ticket in the browser
+Step 22: Continue Setting up os Ticket in the browser
   MySQL Database: osTicket
   MySQL Username: root
   MySQL Password: root
@@ -270,7 +270,7 @@ Default email (receives email from customers)
 <img width="501" alt="osTicket - Step 23 (c" src="https://github.com/user-attachments/assets/8fec7a1c-5906-4cce-a9dd-a27e68275e24" />
 </p>
 <p>
-- Step 23: Browse to your help desk login page: http://localhost/os Ticket/scp/login.php
+Step 23: Browse to your help desk login page: http://localhost/os Ticket/scp/login.php
 End Users os Ticket URL: http://localhost/osTicket/
 </p>
 <br />
