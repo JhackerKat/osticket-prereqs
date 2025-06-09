@@ -112,7 +112,7 @@ End Users os Ticket URL: http://localhost/osTicket/
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="499" alt="osTicket - Step 1" src="https://github.com/user-attachments/assets/9cba801d-b9a8-4977-b3fe-512c9a9f5424" />
 </p>
 <p>
 - Step 1: Create an Azure Virtual Machine Windows 10, 4 vCPUs
