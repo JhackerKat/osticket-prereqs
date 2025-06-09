@@ -22,14 +22,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-osTicket-v1.15.8
-HeidiSQL_12.3.0.6589_Setup
-mysql-5.5.62-win32
-osTicket-v1.15.8
-php-7.3.8-nts-Win32-VC15-x86
-PHPManagerForIIS_V1.5.0
-rewrite_amd64_en-US
-VC_redist.x86
+- osTicket-v1.15.8
+- HeidiSQL_12.3.0.6589_Setup
+- mysql-5.5.62-win32
+- osTicket-v1.15.8
+- php-7.3.8-nts-Win32-VC15-x86
+- PHPManagerForIIS_V1.5.0
+- rewrite_amd64_en-US
+- VC_redist.x86
 
 <h2>Installation Steps</h2>
 
